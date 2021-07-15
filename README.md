@@ -1,0 +1,2 @@
+# kurzevano.github.io
+Резюме
