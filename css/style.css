@@ -1,27 +1,37 @@
-.page-header {
-    display: grid;
-    justify-content: center;
-}
-
-.page-main {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-}
-
-.about {
-    background-color: #0f6ed3;
-    color: white;
-}
-
-.main {
-    background-color: lightgray;
-}
-
-.avatar {
-    border-radius: 50%;
-}
-
-.about,
-.main {
-    padding: 10px;
-}
+    body {
+        font-family: "PT Sans", "Arial", sans-serif;
+    }
+    
+    header {
+        background: darkgrey;
+    }
+    
+    .page-header {
+        display: grid;
+        justify-content: center;
+    }
+    
+    .page-main {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    
+    .about {
+        background-color: gray;
+        color: white;
+    }
+    
+    .main {
+        background-color: lightgray;
+    }
+    
+    .avatar {
+        border-radius: 50%;
+        border: 5px solid white;
+    }
+    
+    .about,
+    .main {
+        padding: 10px;
+        border-radius: 10px;
+    }
