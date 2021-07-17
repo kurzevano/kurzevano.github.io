@@ -41,11 +41,11 @@ header {
 .navigation {
     display: flex;
     height: 30px;
-    background-color: seagreen;
+    margin: 0 10px;
 }
 
 .nav-item {
-    border: 1px solid pink;
+    margin-left: 5px;
 }
 
 .page-main {
