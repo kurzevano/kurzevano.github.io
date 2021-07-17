@@ -53,7 +53,7 @@ header {
     flex-direction: row;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 500px) {
     .page-main {
         display: flex;
         flex-direction: column;
