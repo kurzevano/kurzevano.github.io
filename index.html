@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css//style.css">
+    <link rel="stylesheet" href="css//rating.css">
     <title>Резюме</title>
 </head>
 
 <body>
     <header class="page-header">
         <h1 class="title">Курцева Надежда</h1>
-        <div class="subtitle">Frontend разработчик</div>
+        <h2 class="subtitle">Frontend разработчик</h2>
     </header>
     <main class="page-main">
         <section class="about">
             <section class="photo">
-                <img class="avatar" src="img/avatar.jpeg" width="200" alt="Здесь будет фото">
-                <p class="photo-caption">Курцева Надежда Олеговна</p>
+                <img class="avatar" src="img/avatar.jpeg" width="200" height="200" alt="Здесь будет фото">
             </section>
 
             <section class="contacts">
@@ -36,17 +36,191 @@
                 </ul>
             </section>
 
+            <section class="languages">
+                <h2 class="languages-title">Владение языками</h2>
+                <ul>
+                    <li>Русский
+                        <div class="rating">
+                            <span class="set">☆</span><span class="set">☆</span><span class="set">☆</span><span class="set">☆</span><span class="set">☆</span>
+                        </div>
+                    </li>
+                    <li>Английский
+                        <div class="rating">
+                            <span class="set">☆</span><span class="set">☆</span><span class="set">☆</span><span class="set">☆</span><span class="set">☆</span>
+                        </div>
+                    </li>
+                    <li>Немецкий
+                        <div class="rating">
+                            <span class="set">☆</span><span class="set">☆</span><span class="set">☆</span><span>☆</span><span>☆</span>
+                        </div>
+                    </li>
+                    <li>Французский
+                        <div class="rating">
+                            <span class="set">☆</span><span class="set">☆</span><span class="set">☆</span><span>☆</span><span>☆</span>
+                        </div>
+                    </li>
+                    <li>Испанский
+                        <div class="rating">
+                            <span class="set">☆</span><span class="set">☆</span><span>☆</span><span>☆</span><span>☆</span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
         </section>
 
         <section class="main">
             <section class="work">
                 <h2 class="section-title">Опыт работы</h2>
-                <div>Есть</div>
+                <table>
+                    <tr>
+                        <td class="time-period">Январь 2016 — настоящее время</td>
+                        <td>
+                            <h3>
+                                Мама-программист
+                            </h3>
+                            <ul>
+                                <li>
+                                    Изучение HTML, CSS, Java Script, TypeScript;
+                                </li>
+                                <li>
+                                    Транскрибация интервью на английском языке (тема - frontend разработка, UX-UI дизайн).
+                                </li>
+                                <li>
+                                    Разработка <a href="https://play.google.com/store/apps/details?id=com.knadia.knadiakbzucount">Android приложения для расчёта нормы калорий</a>;
+                                </li>
+                                <li>
+                                    Помощь студентам в решении контрольных (математический анализ, программирование, английский язык);
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="time-period">Февраль 2014 — январь 2016</td>
+                        <td>
+                            <h3>
+                                ТомскАСУПроект
+                            </h3>
+                            <h3>
+                                Программист C#
+                            </h3>
+                            <ul>
+                                <li>
+                                    Создание интерфейсов в WPF по готовым макетам;
+                                </li>
+                                <li>
+                                    Сопровождение legacy-проектов;
+                                </li>
+                                <li>
+                                    Программирование на C#.
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="time-period">Май 2013 — февраль 2014</td>
+                        <td>
+                            <h3>
+                                Консультантъ
+                            </h3>
+                            <h3>
+                                Программист 1С
+                            </h3>
+                            <ul>
+                                <li>
+                                    Обновление программ 1С;
+                                </li>
+                                <li>
+                                    Консультация пользователей по работе в программах 1С;
+                                </li>
+                                <li>
+                                    доработка конфигураций.
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="time-period">Май 2012 — февраль 2013</td>
+                        <td>
+                            <h3>
+                                Русский САПР
+                            </h3>
+                            <h3>
+                                Программист систем документооборота
+                            </h3>
+                            <ul>
+                                <li>
+                                    Участие в проекте по развитию системы документооборота в рамках предприятия на базе системы Lotsia PDM;
+                                </li>
+                                <li>
+                                    Написание инструкций по работе с системой.
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="time-period">Март 2011 — июль 2012</td>
+                        <td>
+                            <h3>
+                                Rubius
+                            </h3>
+                            <h3>
+                                Программист C#
+                            </h3>
+                            Разработка приложений на языке C#:
+                            <ul>
+                                <li>
+                                    Работа с XPS-документами (создание модуля сравнения документов, создание модуля многопоточного рендеринга документов);
+                                </li>
+                                <li>
+                                    Создание справочника объектов ЛЭП (доработка существующей БД на MS SQL, создание модуля просмотра и редактирования объектов БД с использованием WPF);
+                                </li>
+                                <li>
+                                    Создание модуля расчёта свайных закреплений.
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="time-period">Февраль 2010 — февраль 2011</td>
+                        <td>
+                            <h3>
+                                ООО "Инновационные технологии образования"
+                            </h3>
+                            <h3>
+                                Программист C#
+                            </h3>
+                            <ul>
+                                <li>
+                                    Проектирование базы данных для разработки школьного журнала (MS SQL);
+                                </li>
+                                <li>
+                                    Разработка школьного журнала (C#, WinForms).
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                </table>
             </section>
 
             <section class="education">
                 <h2 class="section-title">Образование</h2>
-                <div>2012 Национальный исследовательский Томский политехнический университет, Томск Институт кибернетики</div>
+                <table>
+                    <tr>
+                        <td class="time-period">2012</td>
+                        <td>
+                            <h3>
+                                Национальный исследовательский Томский политехнический университет, Томск Институт кибернетики
+                            </h3>
+                        </td>
+                    </tr>
+                </table>
             </section>
         </section>
 

@@ -1,40 +1,61 @@
-    body {
-        font-family: "Georgia", "Arial", sans-serif;
-        margin: 0;
-    }
-    
-    header {
-        background: darkgrey;
-    }
-    
-    .page-header {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .page-main {
-        display: grid;
-        grid-template-columns: 1fr 3fr;
-    }
-    
-    .about {
-        background-color: gray;
-        color: white;
-    }
-    
-    .main {
-        background-color: lightgray;
-    }
-    
-    .avatar {
-        border-radius: 50%;
-        border: 5px solid white;
-    }
-    
-    .about,
-    .main {
-        padding: 10px;
-        border-radius: 10px;
-    }
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Georgia", "Arial", sans-serif;
+    margin: 0;
+    height: 100%;
+    background-color: lightgray;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+header {
+    background: darkgrey;
+}
+
+.time-period {
+    vertical-align: top;
+    padding: 10px;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 100%;
+}
+
+.about {
+    background-color: gray;
+}
+
+.main {
+    background-color: lightgray;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.about,
+.main {
+    padding: 10px;
+    border-radius: 10px;
+}
