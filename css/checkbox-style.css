@@ -1,0 +1,38 @@
+input[type="checkbox"] {
+    width: 60px;
+    height: 30px;
+    position: relative;
+    appearance: none;
+    outline: none;
+    background-color: skyblue;
+    border-radius: 15px;
+}
+
+input:checked[type="checkbox"] {
+    transition: 1s;
+    background-color: #252850;
+}
+
+input[type="checkbox"]::before {
+    box-sizing: border-box;
+    content: "🌞";
+    position: absolute;
+    vertical-align: -50%;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    background-color: skyblue;
+    transition: 1s;
+    font-size: 1.5em;
+    transform: scale(1.1);
+}
+
+input:checked[type="checkbox"]::before {
+    left: 30px;
+    content: "🌛";
+    background-color: #252850;
+    transition: 1s;
+    padding-left: 10px;
+}
