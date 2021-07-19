@@ -20,7 +20,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+linethrough-outer {
     margin-top: 5px;
     margin-bottom: 5px;
 }
