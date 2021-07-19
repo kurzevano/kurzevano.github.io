@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: "Georgia", "Arial", sans-serif;
+    font-family: "Montserrat", "Arial", sans-serif;
     min-height: 100%;
     background-color: black;
     display: grid;
@@ -45,6 +45,16 @@ header {
     border-right-style: dotted;
     padding-right: 15px;
     display: inline-block;
+}
+
+.mark>li {
+    margin-bottom: 8px;
+    list-style-type: none;
+}
+
+.mark>li:before {
+    content: '✔';
+    margin-right: 10px;
 }
 
 .time-period {
