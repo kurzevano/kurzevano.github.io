@@ -3,7 +3,6 @@ input[type="checkbox"] {
     height: 30px;
     position: relative;
     appearance: none;
-    outline: none;
     background-color: skyblue;
     border-radius: 15px;
 }
@@ -13,20 +12,24 @@ input:checked[type="checkbox"] {
     background-color: #252850;
 }
 
+input:unchecked[type="checkbox"] {
+    transition: 1s;
+    background-color: skyblue;
+}
+
 input[type="checkbox"]::before {
-    box-sizing: border-box;
     content: "🌞";
     position: absolute;
-    vertical-align: -50%;
+    text-align: center;
     width: 30px;
     height: 30px;
     top: 0;
     left: 0;
-    border-radius: 15px;
     background-color: skyblue;
     transition: 1s;
-    font-size: 1.5em;
     transform: scale(1.1);
+    line-height: 30px;
+    border-radius: 15px;
 }
 
 input:checked[type="checkbox"]::before {
@@ -34,5 +37,8 @@ input:checked[type="checkbox"]::before {
     content: "🌛";
     background-color: #252850;
     transition: 1s;
-    padding-left: 10px;
+}
+
+input[type="checkbox"]:hover:before {
+    border: solid black 1px;
 }
