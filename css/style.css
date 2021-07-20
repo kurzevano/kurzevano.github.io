@@ -133,6 +133,10 @@ tr:nth-child(odd) {
     outline: 1px solid #666;
 }
 
+tr:nth-child(even) {
+    outline: 1px solid #777;
+}
+
 .dark {
     background-color: darkblue;
 }
