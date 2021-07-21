@@ -144,3 +144,13 @@ tr:nth-child(even) {
 .light {
     background-color: lightskyblue;
 }
+
+.page-footer {
+    min-height: 20px;
+    padding: 20px;
+    color: white;
+    background-color: rgba(180, 180, 180);
+    background-image: linear-gradient(45deg, lightgray 25%, transparent 25%), linear-gradient(-45deg, lightgray 25%, transparent 25%), linear-gradient(135deg, lightgray 25%, transparent 25%), linear-gradient(-135deg, lightgray 25%, transparent 25%);
+    background-position: 10px 0, 10px 0, 0 0, 0 0;
+    background-size: 20px 20px;
+}
