@@ -20,6 +20,13 @@ body {
     background: linear-gradient(pink, lightskyblue);
 }
 
+.time-period {
+    vertical-align: top;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
 h1,
 h2,
 h3,
@@ -61,8 +68,12 @@ header {
 
 .mark,
 .arrow {
-    margin-left: 15px;
     margin-top: 5px;
+    margin-right: 15px;
+}
+
+.arrow {
+    margin-left: 15px;
 }
 
 .mark>li,
@@ -83,13 +94,9 @@ header {
 }
 
 .arrow>li:before {
-    content: '⮩';
+    content: '➡';
     margin-right: 10px;
-}
-
-.time-period {
-    vertical-align: top;
-    padding: 10px;
+    margin-left: 10px;
 }
 
 .page-header {
@@ -163,6 +170,12 @@ tr:nth-child(odd) {
 
 tr:nth-child(even) {
     outline: 1px solid #777;
+}
+
+.period-length {
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 5px;
 }
 
 .dark {
