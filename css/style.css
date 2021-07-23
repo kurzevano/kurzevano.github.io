@@ -24,7 +24,7 @@ h1,
 h2,
 h3,
 linethrough-outer {
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 5px;
 }
 
@@ -59,13 +59,31 @@ header {
     display: inline-block;
 }
 
-.mark>li {
+.mark,
+.arrow {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.mark>li,
+.arrow>li {
     margin-bottom: 8px;
     list-style-type: none;
 }
 
 .mark>li:before {
     content: '✔';
+    margin-right: 10px;
+}
+
+.mark>li,
+.arrow>li {
+    margin-bottom: 8px;
+    list-style-type: none;
+}
+
+.arrow>li:before {
+    content: '⮩';
     margin-right: 10px;
 }
 
@@ -119,6 +137,16 @@ header {
 
 .main {
     background-color: white;
+}
+
+.about-me {
+    font-family: 'Neucha', cursive;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.about-me::before {
+    content: "\00a0";
 }
 
 .avatar {
