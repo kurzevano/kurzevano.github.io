@@ -20,11 +20,12 @@ body {
     background: linear-gradient(pink, lightskyblue);
 }
 
-.time-period {
+.work-table {
+    border-spacing: 10px 0;
+}
+
+.work-table td {
     vertical-align: top;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
 }
 
 h1,
@@ -32,13 +33,18 @@ h2,
 h3,
 linethrough-outer {
     margin-top: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.time-period {
+    margin-top: 15px;
+    margin-left: 10px;
 }
 
 .photo,
 .about-details,
 .main {
-    padding: 10px 15px;
+    padding: 10px 20px;
 }
 
 .main,
