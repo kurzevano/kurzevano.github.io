@@ -20,12 +20,15 @@ body {
     background: linear-gradient(pink, lightskyblue);
 }
 
-.work-table {
-    border-spacing: 10px 0;
-}
-
 .work-table td {
     vertical-align: top;
+    border-bottom: 1px solid lightgray;
+    padding: 0px 10px;
+}
+
+.work-table {
+    border-collapse: collapse;
+    border: 2px solid black;
 }
 
 h1,
@@ -168,14 +171,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
-
-tr:nth-child(odd) {
-    outline: 1px solid #666;
-}
-
-tr:nth-child(even) {
-    outline: 1px solid #777;
 }
 
 .period-length {
