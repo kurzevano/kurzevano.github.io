@@ -20,6 +20,10 @@ body {
     background: linear-gradient(pink, lightskyblue);
 }
 
+.not-implemented {
+    display: none;
+}
+
 .work-table td {
     vertical-align: top;
     border-bottom: 1px solid lightgray;
