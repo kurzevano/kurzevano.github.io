@@ -17,7 +17,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     border: solid 0.5px;
-    background: linear-gradient(pink, lightskyblue);
+    background: linear-gradient(#0c3869, #29b593, #4ecad2, #29b593, #063365);
 }
 
 .not-implemented {
@@ -62,6 +62,7 @@ linethrough-outer {
 .main,
 .about {
     margin: 1px;
+    min-width: 350px;
 }
 
 header {
