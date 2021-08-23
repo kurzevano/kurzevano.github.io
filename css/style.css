@@ -101,6 +101,17 @@ header {
     list-style-type: none;
 }
 
+.link-list>li {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.link-list>li>a:hover {
+    outline-style: dotted;
+}
+
 .mark>li:before {
     content: '✔';
     margin-right: 10px;
